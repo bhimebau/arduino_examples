@@ -36,7 +36,7 @@ void loop() {
 ![Image of expected output](image/example_2_output.png)
 
 
-## Exploration Ideas
+## Exploration
 
 * Print a message when the value of the sensor input is greater than a threshold.
 * The sensorValue variable reports the number of A2D counts. Convert and print the actual voltage. 

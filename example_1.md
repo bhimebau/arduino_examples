@@ -30,7 +30,7 @@ void loop() {
 ![Image of expected output](image/example_1_output.png)
 
 
-## Exploration Ideas
+## Exploration
 
 * What happens when you change the value of the argument to the delay function? 
 
