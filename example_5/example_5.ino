@@ -1,4 +1,7 @@
+#define THRESHOLD 475
+
 int ledPin = 2;
+int sensorPin = A0;
 
 void setup() {
   // put your setup code here, to run once:
@@ -9,11 +12,16 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(ledPin, HIGH);
-  Serial.print("LED ON\n");
-  delay(500);
-  digitalWrite(ledPin, LOW);
-  Serial.print("LED OFF\n");  
-  delay(500);
+  int sensorValue;
+
+  sensorValue = analogRead(sensorPin);
+  if (sensorValue < THRESHOLD) {
+    digitalWrite(ledPin, HIGH);  // Turn on the light
+    Serial.print("NIGHT\n");
+  }
+  else {
+    digitalWrite(ledPin, LOW);
+    Serial.print("DAY\n");
+  }
 }
 
