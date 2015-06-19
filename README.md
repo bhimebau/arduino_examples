@@ -1,7 +1,7 @@
 # arduino_examples
 Arduino Examples for Informatics Camp
 
-## [[Example 1 - Hello World | Example_1 ]]
+## [Example 1 - Hello World](Example_1.md)
 ## Example 2 - Potentiometer Read
 ## Example 3 - LED Output
 ## Example 4 - Simple Nightlight
