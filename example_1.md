@@ -1,6 +1,6 @@
 # Here is the explanation for Example 1
 
-![Image of light sensor](image/light_sensor_bb.png)
+![Image of light sensor](image/potentiometer_bb.png)
 
 ```c++
 void setup() {
