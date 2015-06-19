@@ -32,6 +32,6 @@ void loop() {
 
 ## Exploration Ideas
 
-* What happens when you change the value of the argument to the delay function?
+* What happens when you change the value of the argument to the delay function? 
 
 
