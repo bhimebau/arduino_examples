@@ -13,6 +13,6 @@ void loop() {
   // put your main code here, to run repeatedly:
   sensorValue = analogRead(sensorPin);
   Serial.println(sensorValue);
-  delay(1000);
+  delay(1000);g
 }
 
