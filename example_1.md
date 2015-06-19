@@ -1,5 +1,7 @@
 # Here is the explanation for Example 1
 
+![Image of light sensor](images/light_sensor_bb.png)
+
 ```c++
 void setup() {
   // put your setup code here, to run once:
