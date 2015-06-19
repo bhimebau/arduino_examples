@@ -22,7 +22,7 @@ This example requires that you copy the HTTP library from the arduino_examples/l
 // Get's the web page given at http://<kHostname><kPath> and
 // outputs the content to the serial port
 
-//#define GET_FROM_INSTRUCTOR 101
+//#define GET_FROM_INSTRUCTOR
 
 #include <SPI.h>
 #include <HttpClient.h>
