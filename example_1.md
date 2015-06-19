@@ -20,14 +20,14 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   Serial.println("Hello World");
-  delay(1);
+  delay(1000);
 }
 ```
-[full example 1 source](example_2/example_2.ino)
+![full example 1 source](example_2/example_2.ino)
 
 ## Output 
 
-![Image of expected output](image/hello_world_bb.png)
+![Image of expected output](image/example_1_output.png)
 
 
 ## Exploration Ideas
