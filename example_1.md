@@ -13,5 +13,5 @@ void loop() {
   delay(1);
 }
 ```
-[repo code](example_2/example_2.ino)
+[full example 1 source](example_2/example_2.ino)
 
