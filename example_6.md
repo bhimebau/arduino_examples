@@ -6,7 +6,7 @@ Get data from a website and print it on the console.
 
 ## Library Setup 
 
-This example requires that you copy the HTTP library from the arduino_examples/library directory to My Documents/Arduino/libraries folder. **You will need to restart the Arduino program before it will be able to find this library.**
+This example requires that you copy the HTTP library from the arduino_examples/libraries directory to My Documents/Arduino/libraries folder. **You will need to restart the Arduino program before it will be able to find this library.**
 
 ## Hardware Setup
 
