@@ -39,4 +39,5 @@ void loop() {
 
 ## Exploration 
 
+* Change the blink rate of the LED. 
 * Rewrite the loop() code so that it includes only one call to digitalWrite in each pass through the loop. The led should still have the behavior of alternating between on and off. 
