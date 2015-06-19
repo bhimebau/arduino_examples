@@ -1,6 +1,14 @@
-# Here is the explanation for Example 1
+# Example 1
 
-![Image of light sensor](image/potentiometer_bb.png)
+## Overview
+
+Warm-up example to get started with the Arduino. This example prints "World World" on the serial console. 
+
+## Hardware Setup
+
+![Image of blank breadboard](image/hello_world_bb.png)
+
+## Software
 
 ```c++
 void setup() {
@@ -16,4 +24,14 @@ void loop() {
 }
 ```
 [full example 1 source](example_2/example_2.ino)
+
+## Output 
+
+![Image of expected output](image/hello_world_bb.png)
+
+
+## Exploration Ideas
+
+* What happens when you change the value of the argument to the delay function?
+
 
