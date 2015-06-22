@@ -3,7 +3,9 @@
 #include <HttpClient.h>
 #include <Xively.h>
 
-// #define GET_FROM_INSTRUCTOR
+#define MAC_BYTE GET_FROM_BOARD_LABEL
+#define IP_BYTE GET_FROM_BOARD_LABEL
+
 // #define FEED_ID 
 // #define API_KEY " "
 
@@ -28,8 +30,8 @@ XivelyFeed feed(FEED_ID, datastreams, 2);
 EthernetClient client;
 XivelyClient xivelyclient(client);
 
-byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-byte ip[] = {129, 79, 243, GET_FROM_INSTRUCTOR};
+byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, MAC_BYTE };
+byte ip[] = {129, 79, 243, IP_BYTE};
 byte iudns[] = {129, 79, 1, 1};
 byte gw[] = {129, 79, 243, 1};
 

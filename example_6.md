@@ -22,7 +22,8 @@ This example requires that you copy the **HTTP** library from the arduino_exampl
 // Get's the web page given at http://<kHostname><kPath> and
 // outputs the content to the serial port
 
-//#define GET_FROM_INSTRUCTOR
+#define MAC_BYTE GET_FROM_BOARD_LABEL
+#define IP_BYTE GET_FROM_BOARD_LABEL
 
 #include <SPI.h>
 #include <HttpClient.h>
@@ -37,8 +38,8 @@ const char kHostname[] = "www.arduino.cc";
 // that you want to download
 const char kPath[] = "/";
 
-byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-byte ip[] = {129, 79, 243, GET_FROM_INSTRUCTOR};
+byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, MAC_BYTE};
+byte ip[] = {129, 79, 243, IP_BYTE};
 byte iudns[] = {129, 79, 1, 1};
 byte gw[] = {129, 79, 243, 1};
 
