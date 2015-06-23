@@ -23,7 +23,7 @@ void loop() {
   delay(1000);
 }
 ```
-[Repository Source](example_2/example_1.ino)
+[Repository Source](example_1/example_1.ino)
 
 ## Output 
 
