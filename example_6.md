@@ -14,41 +14,25 @@ Copy **libraries/Newping** to **Documents/Arduino/libraries**. You will need to 
 
 ## Software
 
-```c++
-#define THRESHOLD 475
+### Starting with an example
+Load the sonar example from the file menu in the Arduino Software: **File->NewPing->NewpingExample**. You will use this as a starting point for your software. Save the example to the example_6 subdirectory.
 
-int ledPin = 2;
-int sensorPin = A0;
+### Using what you have learned from example_1-5.
+Use your experiences from example_1 through example_5 to get the LEDs and the potentiometer working.
 
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600); 
-  Serial.print("Alive\n");
-  pinMode(ledPin, OUTPUT);
-}
+### Writing the parking buddy application
+The parking buddy application is used to tell a driver when they have their car the proper distance from the front wall in a garage. The device should have the following behaviors:
 
-void loop() {
-  // put your main code here, to run repeatedly:
-  int sensorValue;
+* The red led should be used to tell the driver when to stop.
+* The green led should flash to indicate that the driver is getting close to the stopping point.
+* The green led should be on when there is nothing in range of the sensor. 
+* The potentiomter should be used to set the distance where the red led turns on. This allows the device to be easily calibrated. 
 
-  sensorValue = analogRead(sensorPin);
-  if (sensorValue < THRESHOLD) {
-    digitalWrite(ledPin, HIGH);  // Turn on the light
-    Serial.print("NIGHT\n");
-  }
-  else {
-    digitalWrite(ledPin, LOW);
-    Serial.print("DAY\n");
-  }
-}
-```
-[Repository Source](example_5/example_5.ino)
 
 ## Output 
-
-![Image of expected output](image/example_5_output.png)
+You should design your output to allow the device to be tested. 
 
 
 ## Exploration 
 
-* The example program prints "NIGHT" or "DAY" repeatedly. How would you change the program to only print the "NIGHT" or "DAY" one time for each transition? 
+* Experiment with other ways of using the LEDS to notify the driver. 
