@@ -7,7 +7,7 @@ will aid a driver in getting their car a specific distance from a garage wall.
 
 ## Hardware Setup
 
-![Image of sonar setup](image/sonar.png)
+![Image of sonar setup](image/sonar_bb.png)
 
 ## Software
 
