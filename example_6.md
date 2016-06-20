@@ -35,4 +35,5 @@ You should design your output to allow the device to be tested.
 
 ## Exploration 
 
-* Experiment with other ways of using the LEDS to notify the driver. 
+* Experiment with other ways of using the LEDS to notify the driver.
+* Think of other applications that you might be able to building using these components. 
